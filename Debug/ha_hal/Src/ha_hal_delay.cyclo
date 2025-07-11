@@ -1,0 +1,2 @@
+../ha_hal/Src/ha_hal_delay.c:3:6:ha_hal_hardware_delay	1
+../ha_hal/Src/ha_hal_delay.c:8:6:ha_hal_software_delay	2
