@@ -27,6 +27,7 @@ SUBDIRS := \
 Core/Src \
 Core/Startup \
 Drivers/STM32F4xx_HAL_Driver/Src \
+Drivers/at_modem/Src \
 debug_rtt/Src \
 ha_hal/Src \
 

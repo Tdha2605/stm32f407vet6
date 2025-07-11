@@ -5,23 +5,23 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-../debug_rtt/Src/SEGGER_RTT.c 
+../Drivers/at_modem/Src/at_modem.c 
 
 OBJS += \
-./debug_rtt/Src/SEGGER_RTT.o 
+./Drivers/at_modem/Src/at_modem.o 
 
 C_DEPS += \
-./debug_rtt/Src/SEGGER_RTT.d 
+./Drivers/at_modem/Src/at_modem.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
-debug_rtt/Src/%.o debug_rtt/Src/%.su debug_rtt/Src/%.cyclo: ../debug_rtt/Src/%.c debug_rtt/Src/subdir.mk
+Drivers/at_modem/Src/%.o Drivers/at_modem/Src/%.su Drivers/at_modem/Src/%.cyclo: ../Drivers/at_modem/Src/%.c Drivers/at_modem/Src/subdir.mk
 	arm-none-eabi-gcc "$<" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -I"E:/stm32_workspace/f407vet6/debug_rtt/Inc" -I"E:/stm32_workspace/f407vet6/ha_hal/Inc" -I"E:/stm32_workspace/f407vet6/Drivers/at_modem/Inc" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "$@"
 
-clean: clean-debug_rtt-2f-Src
+clean: clean-Drivers-2f-at_modem-2f-Src
 
-clean-debug_rtt-2f-Src:
-	-$(RM) ./debug_rtt/Src/SEGGER_RTT.cyclo ./debug_rtt/Src/SEGGER_RTT.d ./debug_rtt/Src/SEGGER_RTT.o ./debug_rtt/Src/SEGGER_RTT.su
+clean-Drivers-2f-at_modem-2f-Src:
+	-$(RM) ./Drivers/at_modem/Src/at_modem.cyclo ./Drivers/at_modem/Src/at_modem.d ./Drivers/at_modem/Src/at_modem.o ./Drivers/at_modem/Src/at_modem.su
 
-.PHONY: clean-debug_rtt-2f-Src
+.PHONY: clean-Drivers-2f-at_modem-2f-Src
 

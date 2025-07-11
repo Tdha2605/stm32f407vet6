@@ -19,6 +19,8 @@
 "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o"
 "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o"
 "./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o"
+"./Drivers/at_modem/Src/at_modem.o"
 "./debug_rtt/Src/SEGGER_RTT.o"
 "./ha_hal/Src/ha_hal_delay.o"
 "./ha_hal/Src/ha_hal_gpio.o"
+"./ha_hal/Src/ha_hal_uart.o"

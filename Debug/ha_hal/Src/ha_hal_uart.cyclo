@@ -1,0 +1,8 @@
+../ha_hal/Src/ha_hal_uart.c:3:9:ha_hal_uart_init	2
+../ha_hal/Src/ha_hal_uart.c:19:9:ha_hal_uart_transmit	2
+../ha_hal/Src/ha_hal_uart.c:28:9:ha_hal_uart_receive	2
+../ha_hal/Src/ha_hal_uart.c:37:9:ha_hal_uart_transmit_it	2
+../ha_hal/Src/ha_hal_uart.c:46:9:ha_hal_uart_receive_it	2
+../ha_hal/Src/ha_hal_uart.c:54:6:ha_hal_uart_irq_handler	1
+../ha_hal/Src/ha_hal_uart.c:59:9:ha_hal_uart_deinit	2
+../ha_hal/Src/ha_hal_uart.c:68:9:ha_hal_uart_set_baudrate	2
