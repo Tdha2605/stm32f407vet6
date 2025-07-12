@@ -1,0 +1,6 @@
+../ha_hal/Src/ha_hal_sd_card.c:4:9:ha_hal_sd_card_init	3
+../ha_hal/Src/ha_hal_sd_card.c:22:9:ha_hal_sd_card_mount	2
+../ha_hal/Src/ha_hal_sd_card.c:33:9:ha_hal_sd_card_unmount	2
+../ha_hal/Src/ha_hal_sd_card.c:43:9:ha_hal_sd_card_write_file	5
+../ha_hal/Src/ha_hal_sd_card.c:66:9:ha_hal_sd_card_read_file	4
+../ha_hal/Src/ha_hal_sd_card.c:91:9:ha_hal_sd_card_get_free_space	2

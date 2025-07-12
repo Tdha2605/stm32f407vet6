@@ -1,0 +1,6 @@
+../ha_hal/Src/ha_hal_sd_card.c:4:9:ha_hal_sd_card_init	4160	static
+../ha_hal/Src/ha_hal_sd_card.c:22:9:ha_hal_sd_card_mount	4160	static
+../ha_hal/Src/ha_hal_sd_card.c:33:9:ha_hal_sd_card_unmount	8	static
+../ha_hal/Src/ha_hal_sd_card.c:43:9:ha_hal_sd_card_write_file	4168	static
+../ha_hal/Src/ha_hal_sd_card.c:66:9:ha_hal_sd_card_read_file	4176	static
+../ha_hal/Src/ha_hal_sd_card.c:91:9:ha_hal_sd_card_get_free_space	24	static
