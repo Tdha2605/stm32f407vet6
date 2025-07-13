@@ -2,7 +2,7 @@
 
 void ha_hal_hardware_delay(uint8_t _ms)
 {
-	HAL_Delay(_ms);
+	DELAY_MS(_ms);
 }
 
 void ha_hal_software_delay(uint8_t _ms)
